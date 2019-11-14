@@ -1,0 +1,170 @@
+@import 'settings';
+@import 'foundation-emails';
+// @import 'vsl-app';
+
+
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+td {
+  hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #eeb111;
+  text-decoration: underline;
+}
+
+.fine-print a, .fineprint a:visited, fine-print a:hover {
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+.show-column {
+  background: #e5e5e5;
+}
+
+// <br class="hide-hardbreak">
+
+table.button table td a {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+table.button table td {
+  text-align: center !important;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+img.logo {
+  width: 100px;
+}
+
+img.sm-icon {
+  width: 25px;
+  height: 25px;
+  float:right;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+th.columns table.sm-icons {
+  width: 160px;
+}
+
+.sm-icon-cell {
+  width: 40px !important;
+}
+
+
+.offer {
+  background: #000000;
+}
+
+.offer h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.offer h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.offer p {
+  color: #ffffff;
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+.benefits h2 {
+  font-size: 22px;
+}
+
+.benefits-icon-td {
+  padding-right: 10px;
+  width: 50px;
+}
+
+img.benefits-icon {
+  width: 35px;
+  height: 35px;
+  float: right;
+}
+
+.collapse > tbody > tr > th.large-4.offer {
+  padding-left: 16px;
+}
+
+.vmiddle, tr.vmiddle, .vmiddle tr th {
+  vertical-align: middle;
+}
+
+th.callout-inner.warning {
+  background: #fefaf1;
+}
+
+p.fine-print {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 616px) {
+  img.logo {
+    max-width: 120px;
+  }
+
+  .hide-hardbreak {
+    display: none;
+  }
+
+  .collapse > tbody > tr > th.large-4.offer {
+    padding-left: 16px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .benefits-icon-td {
+    width: 30%;
+  }
+
+  img.benefits-icon {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  img.sm-icon {
+    width: 25px !important;
+    height: 25px !important;
+    float:none;
+    margin: 0 auto;
+  }
+
+  table.body table.container .hide-for-large {
+    width: 160px !important;
+  }
+
+
+
+}
